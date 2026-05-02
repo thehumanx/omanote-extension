@@ -41,7 +41,7 @@ Right-click anywhere (no selection):
 
 ### 1.3 Toolbar Popup
 
-Clicking the extension icon opens a 360px React panel with:
+Clicking the extension icon opens a panel with:
 
 - Type tabs: **Note / Bookmark / Todo**
 - Form fields: content/URL, folder/category dropdown, hashtag input, source URL checkbox
