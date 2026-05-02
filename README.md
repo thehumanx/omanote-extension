@@ -1,6 +1,8 @@
 # omanote-extension
 Browser extension for omanote. Capture notes, bookmarks, and todos from anywhere into your omanote workspace.
 
+Learn more on: [https://omanote.iambishistha.com](the official website.)
+
 # 1.Feature Set
 
 ### 1.1 Selection Bubble (Grammarly-style)
