@@ -57,11 +57,15 @@ Clicking the extension icon opens a panel with:
 
 # 2. Loading in Chrome
 
+> Download the official version from [Chrome Webstore](https://chromewebstore.google.com/detail/omanote/foafmfgfdbdiiggmmfdoalgpfhkejbjn)
+
 1. Go to `chrome://extensions`
 2. Enable **Developer mode**
 3. Click **Load unpacked** → select `omanote-chromium.zip`
 
 # 3. Loading in Firefox
+
+> Download the official version from [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/omanote/).
 
 Firefox requires signed extensions for `about:addons`. For development:
 
