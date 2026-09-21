@@ -1,11 +1,13 @@
 # omanote-extension
-Browser extension for omanote. Capture notes, bookmarks, and todos from anywhere into your omanote workspace.
+Browser extension for omanote. Capture notes, bookmarks, and todos or subscribe to RSS (if available) from anywhere into your omanote.
 
-Learn more on: [the official website](https://omanote.iambishistha.com)
+Learn more on: [the official website](https://omanote.com)
+
+> Download the latest version from the official browser's plugin page mentioned below
 
 # 1.Feature Set
 
-### 1.1 Selection Bubble (Grammarly-style)
+### 1.1 Selection Bubble
 
 When the user selects any text on any page, a small omanote bubble appears near the selection. Clicking it opens an inline save modal.
 
@@ -13,7 +15,7 @@ When the user selects any text on any page, a small omanote bubble appears near 
 - Selected text that is a pure URL → defaults to **Bookmark**
 - Selected text + page URL → **Note with source link** (checkbox to include URL)
 
-The bubble disappears on click-away or Escape. It lives inside a **closed Shadow DOM** so page styles cannot interfere.
+You can flag website to you choose where you don't want the bubble to appear from the extension popup.
 
 ### 1.2 Context Menu (Right-click)
 
@@ -37,6 +39,10 @@ Right-click on an image:
 Right-click anywhere (no selection):
   └── Save to omanote
         └── Save Page as Bookmark
+
+Right-click anywhere (no selection):
+  └── Subscribe to feed
+        └── Detects RSS feed in the website to subscribe
 ```
 
 ### 1.3 Toolbar Popup
@@ -59,18 +65,8 @@ Clicking the extension icon opens a panel with:
 
 > Download the official version from [Chrome Webstore](https://chromewebstore.google.com/detail/omanote/foafmfgfdbdiiggmmfdoalgpfhkejbjn)
 
-1. Go to `chrome://extensions`
-2. Enable **Developer mode**
-3. Click **Load unpacked** → select `omanote-chromium.zip`
-
 # 3. Loading in Firefox
 
 > Download the official version from [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/omanote/).
-
-Firefox requires signed extensions for `about:addons`. For development:
-
-1. Go to `about:addons`
-2. Click gear icon and select **Load from a file**
-3. Select `omanote-firefox.xpi`
 
 
